@@ -1,0 +1,30 @@
+.header-global h1.logo img {
+	max-height: 40px;
+}
+
+.home > header {
+	.video-background {
+		width: 100%    !important;
+		height: auto   !important;
+		}
+	.outer-wrapper {
+		padding-top: 150px;
+	  padding-bottom: 150px;
+	}
+	.title {
+		background: black;
+		box-shadow: none;
+		margin-left: 0;
+
+		> .heading-group h1 {
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+			color: #fff;
+			text-shadow: none;
+
+		}
+		> .heading-group p {
+			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+			color: #fff;
+		}
+	}
+}
